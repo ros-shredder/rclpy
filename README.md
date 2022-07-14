@@ -32,5 +32,3 @@ Source workspace and build docs:
     source install/setup.bash
     cd src/rclpy/rclpy/docs
     make html
-
-Blah.
