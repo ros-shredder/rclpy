@@ -8,6 +8,7 @@ jobs:
   mirror-to-master:
     runs-on: ubuntu-latest
     steps:
+    - run: echo "$GITHUB_CONTEXT"
     - uses: zofrex/mirror-branch@v1
       with:
         target-branch: master
